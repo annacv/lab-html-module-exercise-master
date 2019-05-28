@@ -1,0 +1,351 @@
+/* GLOBAL STYLES */
+
+*:focus {
+  outline: .1rem solid;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-display: swap;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+}
+
+.section-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin: 0 0 2.625rem 0;
+}
+
+.section-description {
+  line-height: 1.2;
+  font-size: 1.25rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.col {
+  width: 30%;
+  display: inline-block;
+}
+
+.col-right {
+  float: right;
+}
+
+.col-left {
+  float: left;
+}
+
+.col-middle {
+  padding: 0 5%;
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADINGS */
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    margin: 0;
+  }
+
+h2 {
+  font-size: 3.375rem;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+h4 {
+  font-size: 1.6875rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+/* BUTTONS */
+
+.btn {
+  line-height: 1.4;
+  font-size: 1.25rem;
+  color: #fff;
+  padding: .5rem 1.5rem;
+  border-radius: 1.25rem;
+  border: 0;
+}
+
+.header-btn {
+  background-color: rgb(240, 146, 51);
+}
+
+.header-btn:hover {
+  background-color: rgb(201, 106, 11);
+}
+
+.orgs-btn {
+  background-color: rgb(203, 56, 55);  
+}
+
+.orgs-btn:hover {
+  background-color: rgb(170, 56, 55);
+}
+
+.install-btn {
+  background-color: rgb(49, 68, 88);
+}
+
+.install-btn:hover {
+  background-color: rgb(41, 56, 73);
+}
+
+/* NAV STYLES */
+
+nav {
+  background-color: #c12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: .9375rem;
+  height: 2rem;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.top-left {
+  float: left;
+  margin: 0 0 0 1.25rem;
+}
+
+.heart {
+  margin: 0 .625rem 0 0;
+}
+
+.top-links {
+  float: right;
+  text-align: right;
+  padding: 0;
+  margin: 0 1.25rem 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 .625rem;
+}
+
+/* HEADER STYLES */
+
+.header {
+  display: block;
+  color: #fff;
+  background-color: rgb(32, 101, 136);
+  background-image: url("../images/city-scape.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding: .75rem 1.25rem;
+}
+
+.header-brand {
+  height: 2.875rem;
+  float: left;
+  margin-right: 1.25rem;
+}
+
+.header-brand-img {
+  height: 2.875rem;
+  width: auto;
+}
+
+.search-engine {
+  display: inline-flex;
+  width: 75%;
+}
+
+input.search-engine-input {
+  width: 100%;
+  font-family: Helvetica,
+  Arial,
+  sans-serif;
+  font-size: 1.125rem;
+  background-color: rgb(31, 82, 111);
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #486f8e;
+  padding: .75rem;
+}
+
+input.search-engine-input:hover,
+input.search-engine-input:focus,
+.search-engine-icon:hover,
+.search-engine-icon:focus {
+  background-color: rgb(41, 56, 73);
+}
+
+input.search-engine-input::placeholder {
+  color: #667788;
+}
+
+.search-engine-icon {
+  color: #fff;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid #486f8e;
+  padding: .75rem 1.0625rem;
+}
+
+.user-actions {
+  float: right;
+  margin-left: 1.25rem;
+  padding: .75rem 0;
+}
+
+.user-actions-text,
+.user-actions-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.user-actions-link:hover {
+  color: #fff;
+}
+
+.user-actions-icon {
+  width: 1.5rem;
+  height: auto;
+  vertical-align: middle;
+}
+
+.header-content {
+  width: 50%;
+  margin: 6rem 14% 5.125rem;
+}
+
+.header-title {
+  margin: 0 0 2.625rem 0;
+}
+
+.header-claim {
+  line-height: 1.2;
+  font-size: 1.25rem;
+  margin: 0 0 2.625rem 0;
+}
+
+/* ORGS SECTION */
+
+#npm-orgs { 
+  width: 100%;
+  color: #fff;
+  background-color: rgb(39, 53, 71);
+  padding: 7.5rem 0 3.75rem;
+}
+
+.col-img {
+  width: 40%;
+}
+
+.col-text {
+  width: 55%;
+  margin-left: 5%;
+}
+
+.orgs-features-list {
+  margin: 0 0 1.5rem;
+}
+
+.orgs-features-list-item {
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+.orgs-info {
+  margin: 1.5rem 0 0;
+}
+
+.orgs-info-text,
+.orgs-info-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.orgs-info-link:hover {
+  color: #fff;
+}
+
+/* INSTALL SECTION */
+
+#npm-install {
+  display: block;
+  color: #fff;
+  background-image: url("../images/forklift.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 6.5rem 0 13.5rem;
+}
+
+/* FEATURES SECTION */
+
+#npm-features {
+  background: #fff;
+  padding: 4.5rem 0 1.5rem;
+  text-align: center;
+}
+
+#npm-features .section-title,
+.features-title,
+.features-icon {
+  color: rgb(83, 88, 98);
+  margin: 0 0 1.5rem 0;
+}
+
+#npm-features .section-description {
+  color: rgb(135, 145, 156);
+  margin: 0 0 3rem 0;
+}
+
+.features-link {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+
+.features-link:hover {
+  color: rgb(125, 74, 73);
+}
+
+/* FOOTER */
+
+.footer {
+  clear: both;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #4a4a4a;
+  margin: 0 auto;
+  height: 3rem;
+}
+
+.footer-credits {
+  font-size: .875rem;
+  padding: 1rem 0;
+  text-align: center;
+}
